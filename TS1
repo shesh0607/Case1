@@ -9,6 +9,7 @@ public class Alert {
 		driver.findElement(By.id("accept")).click();
 		Thread.sleep(2000);
 		driver.switchTo().alert().accept();
+		driver.manage.window.maximize();
 		
 	}
 
