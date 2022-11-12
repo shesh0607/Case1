@@ -10,6 +10,7 @@ public class Alert {
 		Thread.sleep(2000);
 		driver.switchTo().alert().accept();
 		driver.manage.window.maximize();
+		System.out.println();
 		
 	}
 
